@@ -1,8 +1,8 @@
-MERN Stack Blog App Deployment - Infrastructure Bootcamp
+# MERN Stack Blog App Deployment - Infrastructure Bootcamp
 
 This project demonstrates how to deploy a full-stack MERN blog application using modern DevOps tools on AWS. It was completed as part of the Infrastructure Engineering Bootcamp at the Saudi Digital Academy.
 
-Technologies Used
+# Technologies Used
 
 Terraform: Infrastructure provisioning
 
@@ -16,7 +16,7 @@ Amazon S3: Frontend static hosting and media storage
 
 PM2: Node.js process manager
 
-Architecture Overview
+# Architecture Overview
 
 The application consists of:
 
@@ -28,7 +28,7 @@ Database: Hosted on MongoDB Atlas, access restricted to the EC2 public IP.
 
 Media Uploads: Stored in a separate S3 bucket, configured with IAM policies and CORS.
 
-Deployment Steps
+# Deployment Steps
 
 1. Terraform - Infrastructure Provisioning
 
@@ -73,7 +73,7 @@ Git clone of the backend repo
 
 Runs pnpm install and starts app with PM2
 
-Frontend Deployment
+# Frontend Deployment
 
 After building the frontend:
 
