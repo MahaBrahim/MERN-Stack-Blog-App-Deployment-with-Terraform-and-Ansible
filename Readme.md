@@ -28,13 +28,13 @@ Terraform creates:
 •	IAM user with access policies
 •	Key pair for SSH access
 
-# 2. MongoDB Atlas Setup
+2. MongoDB Atlas Setup
 •	Create a free cluster.
 •	Add EC2 instance IP to IP Whitelist.
 •	Create DB user.
 •	Get the connection string for .env.
 
-# 3. Backend Configuration with Ansible
+ 3. Backend Configuration with Ansible
 cd ansible/
 ansible-playbook -i inventory backend-playbook.yml
 Ansible installs:
